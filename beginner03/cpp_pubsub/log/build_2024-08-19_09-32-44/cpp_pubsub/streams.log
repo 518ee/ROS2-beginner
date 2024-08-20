@@ -1,0 +1,52 @@
+[0.040s] Invoking command in '/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /home/fall/ros2_ws_firstPubSub/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/install/cpp_pubsub
+[0.192s] -- The C compiler identification is GNU 11.4.0
+[0.320s] -- The CXX compiler identification is GNU 11.4.0
+[0.333s] -- Detecting C compiler ABI info
+[0.484s] -- Detecting C compiler ABI info - done
+[0.498s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.498s] -- Detecting C compile features
+[0.501s] -- Detecting C compile features - done
+[0.505s] -- Detecting CXX compiler ABI info
+[0.675s] -- Detecting CXX compiler ABI info - done
+[0.682s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.683s] -- Detecting CXX compile features
+[0.684s] -- Detecting CXX compile features - done
+[0.689s] -- Found ament_cmake: 2.3.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[1.001s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.168s] -- Found rclcpp: 27.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[1.216s] -- Found rosidl_generator_c: 4.5.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[1.234s] -- Found rosidl_generator_cpp: 4.5.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[1.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.295s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.541s] -- Found rmw_implementation_cmake: 7.3.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.544s] -- Found rmw_fastrtps_cpp: 8.2.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.711s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.748s] -- Found FastRTPS: /opt/ros/rolling/include  
+[1.824s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.129s] -- Found std_msgs: 5.3.0 (/opt/ros/rolling/share/std_msgs/cmake)
+[2.179s] -- Found tutorial_interfaces: 0.0.0 (/home/fall/ros2_ws_firstPubSub/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[2.451s] -- Configuring done
+[2.497s] -- Generating done
+[2.502s] -- Build files have been written to: /home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub
+[2.519s] Invoked command in '/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /home/fall/ros2_ws_firstPubSub/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/install/cpp_pubsub
+[2.522s] Invoking command in '/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[2.608s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[2.609s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[9.206s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.206s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[9.206s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[9.206s]                  from [01m[K/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/src/subscriber_lambda_function.cpp:17[m[K:
+[9.206s] [01m[K/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/src/subscriber_lambda_function.cpp:[m[K In lambda function:
+[9.206s] [01m[K/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/src/subscriber_lambda_function.cpp:29:63:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst _num_type[m[K’ {aka ‘[01m[Kconst long int[m[K’} and ‘[01m[Kconst char [2][m[K’ to binary ‘[01m[Koperator<<[m[K’
+[9.206s]    29 |         RCLCPP_INFO(this->get_logger(), "I heard: '", [32m[Kmsg.num[m[K [01;31m[K<<[m[K [34m[K"'"[m[K);
+[9.207s]       |                                                       [32m[K~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~[m[K
+[9.207s]       |                                                           [32m[K|[m[K      [34m[K|[m[K
+[9.207s]       |                                                           [32m[K|[m[K      [34m[Kconst char [2][m[K
+[9.207s]       |                                                           [32m[Kconst _num_type {aka const long int}[m[K
+[17.094s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[17.229s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o] Error 1
+[17.229s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[17.229s] gmake[1]: *** Waiting for unfinished jobs....
+[17.781s] [ 75%] Built target talker
+[17.786s] gmake: *** [Makefile:146: all] Error 2
+[17.795s] Invoked command in '/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4

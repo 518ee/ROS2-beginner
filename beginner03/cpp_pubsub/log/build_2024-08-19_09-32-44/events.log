@@ -1,0 +1,235 @@
+[0.000000] (-) TimerEvent: {}
+[0.000597] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001706] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.014758] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.015094] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/install/cpp_pubsub'], 'cwd': '/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fall'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fall/ros2_ws_firstPubSub/install/tutorial_interfaces/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/fall'), ('OLDPWD', '/home/fall/ros2_ws_firstPubSub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2834'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fall/ros2_ws_firstPubSub/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'fall'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fall'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fall-virtual-machine:@/tmp/.ICE-unix/1682,unix/fall-virtual-machine:/tmp/.ICE-unix/1682'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a56346e4_baa4_4c47_8c4e_58e22a69c563'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JNNOS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fall/ros2_ws_firstPubSub/install/tutorial_interfaces:/home/fall/ros2_ws_firstPubSub/install/cpp_srvcli:/home/fall/ros2_ws_firstPubSub/install/cpp_pubsub:/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fall/ros2_ws_firstPubSub/install/tutorial_interfaces/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.10/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fall/ros2_ws_firstPubSub/install/tutorial_interfaces:/home/fall/ros2_ws_firstPubSub/install/cpp_srvcli:/home/fall/ros2_ws_firstPubSub/install/cpp_pubsub:/opt/ros/rolling')]), 'shell': False}
+[0.101010] (-) TimerEvent: {}
+[0.193737] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.201514] (-) TimerEvent: {}
+[0.302248] (-) TimerEvent: {}
+[0.321608] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.334745] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.402986] (-) TimerEvent: {}
+[0.485616] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.499353] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.499828] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.502718] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.503122] (-) TimerEvent: {}
+[0.506514] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.603377] (-) TimerEvent: {}
+[0.677193] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.683797] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.684842] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.685753] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.690830] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.3.2 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.704609] (-) TimerEvent: {}
+[0.806690] (-) TimerEvent: {}
+[0.908063] (-) TimerEvent: {}
+[1.002564] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.008658] (-) TimerEvent: {}
+[1.109832] (-) TimerEvent: {}
+[1.169453] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 27.0.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[1.210399] (-) TimerEvent: {}
+[1.217814] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.5.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[1.235647] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.5.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[1.263097] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.296604] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.310721] (-) TimerEvent: {}
+[1.411682] (-) TimerEvent: {}
+[1.514798] (-) TimerEvent: {}
+[1.543304] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[1.546020] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.2.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.614989] (-) TimerEvent: {}
+[1.712926] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.715569] (-) TimerEvent: {}
+[1.750279] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/rolling/include  \n'}
+[1.815983] (-) TimerEvent: {}
+[1.825807] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.916516] (-) TimerEvent: {}
+[2.017235] (-) TimerEvent: {}
+[2.118395] (-) TimerEvent: {}
+[2.130440] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 5.3.0 (/opt/ros/rolling/share/std_msgs/cmake)\n'}
+[2.180584] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/fall/ros2_ws_firstPubSub/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[2.218753] (-) TimerEvent: {}
+[2.319534] (-) TimerEvent: {}
+[2.420190] (-) TimerEvent: {}
+[2.453147] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.499372] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[2.503442] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub\n'}
+[2.520070] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[2.521081] (-) TimerEvent: {}
+[2.521428] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[2.523563] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fall'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fall/ros2_ws_firstPubSub/install/tutorial_interfaces/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/fall'), ('OLDPWD', '/home/fall/ros2_ws_firstPubSub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2834'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fall/ros2_ws_firstPubSub/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'fall'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fall'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fall-virtual-machine:@/tmp/.ICE-unix/1682,unix/fall-virtual-machine:/tmp/.ICE-unix/1682'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a56346e4_baa4_4c47_8c4e_58e22a69c563'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JNNOS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fall/ros2_ws_firstPubSub/install/tutorial_interfaces:/home/fall/ros2_ws_firstPubSub/install/cpp_srvcli:/home/fall/ros2_ws_firstPubSub/install/cpp_pubsub:/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fall/ros2_ws_firstPubSub/install/tutorial_interfaces/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.10/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fall/ros2_ws_firstPubSub/install/tutorial_interfaces:/home/fall/ros2_ws_firstPubSub/install/cpp_srvcli:/home/fall/ros2_ws_firstPubSub/install/cpp_pubsub:/opt/ros/rolling')]), 'shell': False}
+[2.609250] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o\x1b[0m\n'}
+[2.610708] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o\x1b[0m\n'}
+[2.622106] (-) TimerEvent: {}
+[2.724178] (-) TimerEvent: {}
+[2.825028] (-) TimerEvent: {}
+[2.925774] (-) TimerEvent: {}
+[3.026892] (-) TimerEvent: {}
+[3.127690] (-) TimerEvent: {}
+[3.228596] (-) TimerEvent: {}
+[3.329870] (-) TimerEvent: {}
+[3.430574] (-) TimerEvent: {}
+[3.531492] (-) TimerEvent: {}
+[3.640995] (-) TimerEvent: {}
+[3.743002] (-) TimerEvent: {}
+[3.845016] (-) TimerEvent: {}
+[3.947117] (-) TimerEvent: {}
+[4.048035] (-) TimerEvent: {}
+[4.149024] (-) TimerEvent: {}
+[4.250135] (-) TimerEvent: {}
+[4.351324] (-) TimerEvent: {}
+[4.452399] (-) TimerEvent: {}
+[4.553326] (-) TimerEvent: {}
+[4.654597] (-) TimerEvent: {}
+[4.757348] (-) TimerEvent: {}
+[4.862401] (-) TimerEvent: {}
+[4.965605] (-) TimerEvent: {}
+[5.066774] (-) TimerEvent: {}
+[5.168022] (-) TimerEvent: {}
+[5.268873] (-) TimerEvent: {}
+[5.369695] (-) TimerEvent: {}
+[5.470848] (-) TimerEvent: {}
+[5.572046] (-) TimerEvent: {}
+[5.673198] (-) TimerEvent: {}
+[5.773867] (-) TimerEvent: {}
+[5.874989] (-) TimerEvent: {}
+[5.976192] (-) TimerEvent: {}
+[6.077985] (-) TimerEvent: {}
+[6.179890] (-) TimerEvent: {}
+[6.280614] (-) TimerEvent: {}
+[6.381777] (-) TimerEvent: {}
+[6.482537] (-) TimerEvent: {}
+[6.583475] (-) TimerEvent: {}
+[6.684692] (-) TimerEvent: {}
+[6.785486] (-) TimerEvent: {}
+[6.886572] (-) TimerEvent: {}
+[6.987285] (-) TimerEvent: {}
+[7.088034] (-) TimerEvent: {}
+[7.189623] (-) TimerEvent: {}
+[7.293500] (-) TimerEvent: {}
+[7.394022] (-) TimerEvent: {}
+[7.494933] (-) TimerEvent: {}
+[7.597082] (-) TimerEvent: {}
+[7.698102] (-) TimerEvent: {}
+[7.798679] (-) TimerEvent: {}
+[7.899342] (-) TimerEvent: {}
+[8.000121] (-) TimerEvent: {}
+[8.101130] (-) TimerEvent: {}
+[8.202051] (-) TimerEvent: {}
+[8.303410] (-) TimerEvent: {}
+[8.405325] (-) TimerEvent: {}
+[8.506277] (-) TimerEvent: {}
+[8.608573] (-) TimerEvent: {}
+[8.711970] (-) TimerEvent: {}
+[8.812767] (-) TimerEvent: {}
+[8.913790] (-) TimerEvent: {}
+[9.014293] (-) TimerEvent: {}
+[9.115252] (-) TimerEvent: {}
+[9.207350] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[9.207674] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[9.207764] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[9.207957] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/src/subscriber_lambda_function.cpp:17\x1b[m\x1b[K:\n'}
+[9.208070] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/src/subscriber_lambda_function.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[9.208327] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/src/subscriber_lambda_function.cpp:29:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst _num_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst long int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst char [2]\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator<<\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.208445] (cpp_pubsub) StderrLine: {'line': b'   29 |         RCLCPP_INFO(this->get_logger(), "I heard: \'", \x1b[32m\x1b[Kmsg.num\x1b[m\x1b[K \x1b[01;31m\x1b[K<<\x1b[m\x1b[K \x1b[34m\x1b[K"\'"\x1b[m\x1b[K);\n'}
+[9.208559] (cpp_pubsub) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~\x1b[m\x1b[K\n'}
+[9.208651] (cpp_pubsub) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K      \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[9.208742] (cpp_pubsub) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K      \x1b[34m\x1b[Kconst char [2]\x1b[m\x1b[K\n'}
+[9.208970] (cpp_pubsub) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[Kconst _num_type {aka const long int}\x1b[m\x1b[K\n'}
+[9.215908] (-) TimerEvent: {}
+[9.318374] (-) TimerEvent: {}
+[9.419236] (-) TimerEvent: {}
+[9.520176] (-) TimerEvent: {}
+[9.621379] (-) TimerEvent: {}
+[9.723365] (-) TimerEvent: {}
+[9.825163] (-) TimerEvent: {}
+[9.926804] (-) TimerEvent: {}
+[10.032189] (-) TimerEvent: {}
+[10.136332] (-) TimerEvent: {}
+[10.237368] (-) TimerEvent: {}
+[10.339029] (-) TimerEvent: {}
+[10.442490] (-) TimerEvent: {}
+[10.543679] (-) TimerEvent: {}
+[10.644801] (-) TimerEvent: {}
+[10.747233] (-) TimerEvent: {}
+[10.849356] (-) TimerEvent: {}
+[10.950263] (-) TimerEvent: {}
+[11.051378] (-) TimerEvent: {}
+[11.152664] (-) TimerEvent: {}
+[11.255034] (-) TimerEvent: {}
+[11.355970] (-) TimerEvent: {}
+[11.457031] (-) TimerEvent: {}
+[11.558016] (-) TimerEvent: {}
+[11.658530] (-) TimerEvent: {}
+[11.759721] (-) TimerEvent: {}
+[11.861637] (-) TimerEvent: {}
+[11.962800] (-) TimerEvent: {}
+[12.064758] (-) TimerEvent: {}
+[12.167272] (-) TimerEvent: {}
+[12.268504] (-) TimerEvent: {}
+[12.369819] (-) TimerEvent: {}
+[12.470521] (-) TimerEvent: {}
+[12.571458] (-) TimerEvent: {}
+[12.672480] (-) TimerEvent: {}
+[12.773911] (-) TimerEvent: {}
+[12.875795] (-) TimerEvent: {}
+[12.976588] (-) TimerEvent: {}
+[13.077316] (-) TimerEvent: {}
+[13.178390] (-) TimerEvent: {}
+[13.279166] (-) TimerEvent: {}
+[13.380232] (-) TimerEvent: {}
+[13.485402] (-) TimerEvent: {}
+[13.587091] (-) TimerEvent: {}
+[13.688402] (-) TimerEvent: {}
+[13.791831] (-) TimerEvent: {}
+[13.894701] (-) TimerEvent: {}
+[13.995824] (-) TimerEvent: {}
+[14.097353] (-) TimerEvent: {}
+[14.201292] (-) TimerEvent: {}
+[14.302558] (-) TimerEvent: {}
+[14.403716] (-) TimerEvent: {}
+[14.504483] (-) TimerEvent: {}
+[14.605610] (-) TimerEvent: {}
+[14.706417] (-) TimerEvent: {}
+[14.807508] (-) TimerEvent: {}
+[14.909703] (-) TimerEvent: {}
+[15.012535] (-) TimerEvent: {}
+[15.115810] (-) TimerEvent: {}
+[15.221415] (-) TimerEvent: {}
+[15.333238] (-) TimerEvent: {}
+[15.451660] (-) TimerEvent: {}
+[15.553800] (-) TimerEvent: {}
+[15.654894] (-) TimerEvent: {}
+[15.756227] (-) TimerEvent: {}
+[15.857133] (-) TimerEvent: {}
+[15.958327] (-) TimerEvent: {}
+[16.059148] (-) TimerEvent: {}
+[16.160120] (-) TimerEvent: {}
+[16.264846] (-) TimerEvent: {}
+[16.371595] (-) TimerEvent: {}
+[16.474836] (-) TimerEvent: {}
+[16.585316] (-) TimerEvent: {}
+[16.687694] (-) TimerEvent: {}
+[16.788920] (-) TimerEvent: {}
+[16.889836] (-) TimerEvent: {}
+[16.990413] (-) TimerEvent: {}
+[17.091208] (-) TimerEvent: {}
+[17.095792] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[17.192080] (-) TimerEvent: {}
+[17.230565] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o] Error 1\n'}
+[17.231024] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[17.231210] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[17.292922] (-) TimerEvent: {}
+[17.396087] (-) TimerEvent: {}
+[17.497386] (-) TimerEvent: {}
+[17.598921] (-) TimerEvent: {}
+[17.700327] (-) TimerEvent: {}
+[17.782029] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[17.787761] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.797102] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[17.800888] (-) TimerEvent: {}
+[17.894093] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[17.901730] (-) TimerEvent: {}
+[17.905236] (-) EventReactorShutdown: {}

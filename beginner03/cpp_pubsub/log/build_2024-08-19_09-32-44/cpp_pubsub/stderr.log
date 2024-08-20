@@ -1,0 +1,15 @@
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/src/subscriber_lambda_function.cpp:17[m[K:
+[01m[K/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/src/subscriber_lambda_function.cpp:[m[K In lambda function:
+[01m[K/home/fall/ros2_ws_firstPubSub/src/cpp_pubsub/src/subscriber_lambda_function.cpp:29:63:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst _num_type[m[K’ {aka ‘[01m[Kconst long int[m[K’} and ‘[01m[Kconst char [2][m[K’ to binary ‘[01m[Koperator<<[m[K’
+   29 |         RCLCPP_INFO(this->get_logger(), "I heard: '", [32m[Kmsg.num[m[K [01;31m[K<<[m[K [34m[K"'"[m[K);
+      |                                                       [32m[K~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~[m[K
+      |                                                           [32m[K|[m[K      [34m[K|[m[K
+      |                                                           [32m[K|[m[K      [34m[Kconst char [2][m[K
+      |                                                           [32m[Kconst _num_type {aka const long int}[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
